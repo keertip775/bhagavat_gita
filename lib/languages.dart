@@ -115,6 +115,7 @@ class _LanguagesState extends State<Languages> {
                         Get.to(DetailsPage(), arguments: [items, index]);
                       },
                       child: ListTile(
+                        leading: Image.asset("assets/images/img1.png"),
                         title: Text(items[index]["name"] ?? ""),
                       ),
                     ),

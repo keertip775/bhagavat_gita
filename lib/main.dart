@@ -1,5 +1,9 @@
-import 'package:bhagavat_gita/languages.dart';
-import 'package:bhagavat_gita/splash_page.dart';
+// import 'package:bhagavat_gita/languages.dart';
+// import 'package:bhagavat_gita/splash_page.dart';
+// import 'package:bhagavat_gita/splash_page.dart';
+// import 'package:bhagavat_gita/try.dart';
+import 'package:bhagavat_gita/try1.dart';
+// import 'package:bhagavat_gita/try.dart';
 // import 'package:bhagavat_gita/splash_page.dart';
 import 'package:flutter/material.dart';
 import 'package:device_preview/device_preview.dart';
@@ -42,7 +46,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: SplashPage(),
+      home: Try1(),
     );
   }
 }
